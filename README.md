@@ -1,1 +1,15 @@
-# WebScraper
+# Waterstones WebScraping Project
+
+In this project, I collect data from the book retailer Waterstones website. The aim of the project would be to collect relevant data about books in the the bestsellers category using the Selenium Chrome Webdriver written in Python for the project.
+
+The steps taken in this code can be summarised as follows:
+* Loading the necessary libraries.
+
+* CLoading the website and a that clicks on accept cookies button.
+
+* Clicking on the header leading the the books in the best sellers category.
+  This category is made up of 50 pages.
+  
+* Extracting data regarding the titles, names of authors, prices, format, and ratings of the books in this category.
+
+* Scraping these data for the 50 pages, and saving them in a .csv file called book_scraping_pagination.csv.
