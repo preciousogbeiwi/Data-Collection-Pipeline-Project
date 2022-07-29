@@ -5,7 +5,7 @@ In this project, I collect data from the book retailer Waterstones website. The 
 The steps taken in this code can be summarised as follows:
 * Loading the necessary libraries.
 
-* CLoading the website and a that clicks on accept cookies button.
+* Loading the website and a that clicks on accept cookies button.
 
 * Clicking on the header leading the the books in the best sellers category.
   This category is made up of 50 pages.
