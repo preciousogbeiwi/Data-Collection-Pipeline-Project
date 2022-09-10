@@ -13,3 +13,5 @@ The steps taken in this code can be summarised as follows:
 * Extracting data regarding the titles, names of authors, prices, format, and ratings of the books in this category.
 
 * Scraping these data for the 50 pages, and saving them in a .csv file called book_scraping_pagination.csv.
+
+The test_scraper folder contains script to test the webscraping process
