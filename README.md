@@ -30,7 +30,7 @@ In this milestone, I create a basic SCraper class and added methods for initiali
 * Execute the scraper class within an if __name__ == "__main__" block
 
 # Milestone 4: Retrieve data from the details page
-Here I will get all of the data for each record from each page in the list of URLs previously obtained. I also apply a unique ID generated using the uuid module to assign a unique ID for each book. I created a new directory using the os module and saved the extracted data in the folder as a json file. Using the src links extracted, the images were downloaded and stored in a directory. The already created methods were refactored and optimised several times.
+Here I will get all of the data for each record from each page in the list of URLs previously obtained. I also apply a unique ID generated using the uuid module to assign a unique ID for each book. I created a new directory using the os module and saved the extracted data in the folder as a json file. Using the src links extracted, the images were downloaded and stored in a directory. 
 
 * Create a function to retrieve text and image data from the books in the bestsellers category, and added it to the scraper class.
 * The created method ensured that extracted data was stored in a dictionary that maps the name of each feature to a value.
@@ -38,6 +38,8 @@ Here I will get all of the data for each record from each page in the list of UR
 * A method that downloaded the images of each book using the image links was created.
 
 # Milestone 5: Documentation and Testing
+In this milestone, the code containing the already created methods were refactored and optimised. The unittest modules was applied to test each created method.
 
-The test_scraper folder contains script to test the webscraping process
+* The optimisation of the code was done by adding decorators and docstrings to all the functions.
+* The test_scraper folder contains script to test the webscraping process
 The test_scraper folder contains script to test the webscraping process
