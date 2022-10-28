@@ -42,4 +42,9 @@ In this milestone, the code containing the already created methods were refactor
 
 * The optimisation of the code was done by adding decorators and docstrings to all the functions.
 * The test_scraper folder contains script to test the webscraping process
-The test_scraper folder contains script to test the webscraping process
+
+# Milestone 5: Containerising the Scraper
+In this milestone, the code containing the already created methods were refactored and optimised. The unittest modules was applied to test each created method.
+
+* The optimisation of the code was done by adding decorators and docstrings to all the functions.
+* The test_scraper folder contains script to test the webscraping process
