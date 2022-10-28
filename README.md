@@ -5,13 +5,15 @@ In this project, I implement an industrial-standard fata collection pipeline pro
 In this project, I collect data from the book retailer, [Waterstones](https://www.waterstones.com/)  website. The aim of the project would be to collect relevant data about books in the the bestsellers category using the Selenium Chrome Webdriver written in Python. The README.md file presentts the actions taken and the decisions made during this project.
 
 The techologies used in this project include:
-* Python (
+* Python (pandas, boto3, math, os, selenium, setuptools, sqlalchemy time, unicodedata, urllib, uuid)
+* Cloud: AWS (RDS, S3, EC2)
 * SQL (Postgresql)
 * Prometheus
 * Docker
 * Grafana
 
-The steps taken in this code can be summarised as follows:
+
+# The steps taken in this code can be summarised as follows:
 * Loading the necessary libraries.
 
 * Loading the website and a that clicks on accept cookies button.
