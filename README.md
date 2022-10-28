@@ -22,10 +22,17 @@ Here, the technologies used in the project were set up.
 The book retailer, [Waterstones](https://www.waterstones.com/) was chosen as the website to scrape data from. Relevant data about books in the the bestsellers category were intended for extraction. The online bookstore is one of the largest online retailers of books, toys, etc.
 
 # Milestone 3: Prototype finding the individual page for entry
-* .
-18
-​
-19
+In this milestone, I create a basic SCraper class and added methods for initialising the initialising the Scraper, bypassing cookies, navigating to the best sellers page, and extracting the URLs of the webpages of each book listed in this category.
+
+* Added a Scraper class with basic methods to initialise the chrome webdriver, navigate to the best sellers page, and scrape data using the Selenium methods: find_element and find_elements
+* A method to accept cookies was added
+* A method to obtain the links of the webpage of each book in the best seller category, and store these in a list.
+* Execute the scraper class within an if __name__ == "__main__" block
+
+# Milestone 4: Retrieve data from the details page
+
+
+
 * Loading the website and a that clicks on accept cookies button.
 20
 ​
